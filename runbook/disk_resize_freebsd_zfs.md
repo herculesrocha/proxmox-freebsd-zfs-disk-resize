@@ -50,4 +50,4 @@ do sistema operacional.
 Disco atual: 50 GB  
 Incremento desejado: 100 GB  
 
-<img src="Exemplo_Resize_Proxmox.png" alt="Um Exemplo Gerado por IA">
+<img src="https://github.com/herculesrocha/proxmox-freebsd-zfs-disk-resize/blob/main/Exemplo_Resize_Proxmox.png" alt="Um Exemplo Gerado por IA">
