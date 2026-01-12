@@ -6,7 +6,7 @@ em máquinas virtuais FreeBSD utilizando ZFS, hospedadas no Proxmox VE.
 O foco é a ampliação segura do armazenamento, preservando a integridade
 da tabela GPT e permitindo que o pool ZFS utilize o novo espaço disponível.
 
-Esse atividade foi executada por não termos optado por acrescentar um novo HD.
+Essa atividade foi executada, desta forma, por não termos optado por acrescentar um novo HD.
 
 ---
 
