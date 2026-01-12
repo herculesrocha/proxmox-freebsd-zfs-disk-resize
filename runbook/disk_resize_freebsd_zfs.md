@@ -4,7 +4,7 @@
 Expandir o disco de uma VM FreeBSD hospedada no Proxmox VE e permitir
 que o pool ZFS utilize o novo espaço disponível, sem reinstalação
 do sistema operacional.
-
+OBS.: Essa atividade foi executada, desta forma, por não termos optado por acrescentar um novo HD.
 ---
 
 ## Ambiente validado
@@ -20,7 +20,7 @@ do sistema operacional.
 
 ## Fora do escopo
 
-⚠️ Este runbook **não aborda**:
+⚠️ Este runbook **não abordará**:
 - Criação, remoção ou redimensionamento de SWAP
 - Swap em partição
 - Swap em ZVOL
@@ -30,7 +30,7 @@ do sistema operacional.
 
 ## Pré-requisitos
 
-- VM desligada no Proxmox VE
+- VM dervá ser reiniciada
 - Backup ou snapshot recente
 - Pool ZFS saudável (`zpool status`)
 - Acesso root ao FreeBSD
