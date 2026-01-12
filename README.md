@@ -35,7 +35,7 @@ Esse atividade foi executada por não termos optado por acrescentar um novo HD.
 
 📘 O procedimento completo está documentado no runbook:
 
-➡️ `runbook/disk_resize_freebsd_zfs.md`
+➡️ [`runbook/disk_resize_freebsd_zfs.md`](/runbook/disk_resize_freebsd_zfs.md)
 
 ---
 
