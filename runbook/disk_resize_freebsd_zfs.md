@@ -132,7 +132,7 @@ Cenários possíveis de rollback
 * Redimensionamento incorreto
 * Pool não expandido conforme esperado
 
-Estratégias de rollback
+Estratégias de rollback /
 1️⃣ Pool não expandiu
 
 O redimensionamento pode ser reaplicado:
@@ -140,17 +140,17 @@ O redimensionamento pode ser reaplicado:
 zpool online -e zroot ada0p3
 ```
 
-2️⃣ Partição redimensionada incorretamente
+2️⃣ Partição redimensionada incorretamente /
 Se o ZFS ainda não foi expandido, é possível ajustar novamente:
 ```sh
 gpart resize -i 3 -s <tamanho_anterior> ada0
 ```
 ⚠️ Após expansão do pool ZFS, não é possível reduzir o tamanho do pool.
 
-3️⃣ Recuperação via snapshot / backup
-Caso o procedimento gere inconsistências:
-Restaurar snapshot do Proxmox VE
-Restaurar backup completo da VM
+3️⃣ Recuperação via snapshot / backup /
+Caso o procedimento gere inconsistências: 
+* Restaurar snapshot do Proxmox VE
+* Restaurar backup completo da VM
 
 Considerações finais
 * Como já utilizar algumas vezes, posso dizer que o procedimento é seguro quando seguido corretamente
